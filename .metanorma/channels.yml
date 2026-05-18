@@ -1,0 +1,23 @@
+channels:
+  - public/standards
+  - public/directives
+  - public/reports
+  - public/admin
+  - public/advisories
+  - public/public-review
+  - members/drafts
+  - members/standards
+  - internal/working
+  - internal/tc
+
+defaults:
+  routing:
+    rules:
+      - stage: ["60"]
+        channels: [public/standards]
+      - stage: ["50"]
+        channels: [members/drafts]
+      - stage: ["20", "30", "40"]
+        channels: [internal/working]
+    default:
+      - public/standards
