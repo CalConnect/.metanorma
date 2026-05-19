@@ -21,3 +21,29 @@ defaults:
         channels: [internal/working]
     default:
       - public/standards
+
+display_categories:
+  - name: Standards, Specifications & Reports
+    slug: standards
+    doctypes:
+      - standard
+      - specification
+      - report
+  - name: Guides & Advisories
+    slug: guides-advisories
+    doctypes:
+      - guide
+      - advisory
+  - name: Directives
+    slug: directives
+    doctypes:
+      - directive
+  - name: Administrative
+    slug: administrative
+    doctypes:
+      - administrative
+  - name: Amendments & Technical Corrigenda
+    slug: amendments
+    doctypes:
+      - amendment
+      - technical-corrigendum
