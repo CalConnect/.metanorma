@@ -30,7 +30,7 @@ display_categories:
       - specification
       - report
   - name: Guides & Advisories
-    slug: guides-advisories
+    slug: guides
     doctypes:
       - guide
       - advisory
